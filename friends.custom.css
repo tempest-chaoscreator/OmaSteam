@@ -4772,3 +4772,37 @@ a.connectionStatus, a.connectionStatus:hover, a.connectionStatus:active, a.conne
 ._2bl0iQ9xigbq4Zd1NI6NZl::before {
     background: rgb(var(--focus));
 }
+
+._2tqpD1Hr0c3LCAUSe4r3Yp {
+    background-color: rgb(var(--white12));
+    color: rgb(var(--white));
+}
+
+._2tqpD1Hr0c3LCAUSe4r3Yp ._3aAuWBf6nMD2HeEJd705tm {
+    color: rgb(var(--white));
+}
+
+._2tqpD1Hr0c3LCAUSe4r3Yp ._1Wd-oBTdxaR4gdEOCU0Y_c {
+    color: rgb(var(--white75));
+}
+
+._2tqpD1Hr0c3LCAUSe4r3Yp:hover {
+    background: rgb(var(--white24));
+}
+
+.BBCodeCollapsed_Friend {
+    background-color: rgb(var(--white12));
+}
+
+.BBCodeAlreadyCollapsed.Minimized:hover .BBCodeAlreadyCollapsedText, .BBCodeResizableComponent.Minimized:hover .BBCodeCollapsed_Friend {
+    background-color: rgb(var(--white24));
+    color: rgb(var(--white));
+}
+
+.Minimized .BBCodeCollapseControl .SVGIcon_Button {
+    fill: rgb(var(--white));
+}
+
+.BBCodeYouTubeComponent.Minimized .BBCodeCollapseControl {
+    top: 13px; /* Doubtful */
+}
