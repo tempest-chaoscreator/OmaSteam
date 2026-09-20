@@ -1,0 +1,13 @@
+OmaSteam is a fork of Metro by Rose (MetroSteam):
+
+  https://github.com/RoseTheFlower/MetroSteam
+
+The CSS, theme.json, skin.json, preview, and decals in this repository
+are Rose's work. Upstream published no license file. This fork exists so
+Omarchy users can install that skin together with a palette hook, without
+installing Metro by Rose from the Millennium theme browser first.
+
+The Omarchy hook and install scripts (omahook-omasteam, install.sh,
+uninstall.sh) are original to this fork.
+
+See UPSTREAM.md for Rose's original README and credits.

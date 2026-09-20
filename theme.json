@@ -1,9 +1,9 @@
 {
-    "name": "Metro by Rose",
-    "author": "Rose",
+    "name": "OmaSteam",
+    "author": "Tempest (based on Rose)",
     "target": "Desktop",
     "version": "v1.12",
-    "description": "A skin heavily inspired by the original Metro for Steam",
+    "description": "Metro by Rose, with Omarchy colors.toml synced through a theme-set hook",
     "manifest_version": 9,
     "tabs": {
         "library": ["Steam|SteamLibraryWindow", "desktopoverlay", "desktopcontextmenu"],

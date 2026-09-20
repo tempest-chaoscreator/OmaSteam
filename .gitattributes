@@ -3,4 +3,10 @@ decals/ export-ignore
 *.md export-ignore
 preview.png export-ignore
 custom.css export-ignore
+custom.css.example export-ignore
+install.sh export-ignore
+uninstall.sh export-ignore
+omahook-omasteam export-ignore
+NOTICE export-ignore
+.gitignore export-ignore
 .gitattributes export-ignore
