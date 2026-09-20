@@ -67,9 +67,9 @@ The same library under four Omarchy palettes:
 
 ![OmaSteam on Tokyo Night](previews/example-tokyo-night.jpg)
 
-**Light**
+**Flexoki Light**
 
-![OmaSteam light](previews/example-light.jpg)
+![OmaSteam on Flexoki Light](previews/example-flexoki-light.jpg)
 
 ## Uninstall
 
