@@ -55,17 +55,17 @@ If Steam is open, that last step is a GUI-only reload (`SteamClient.Browser.Rest
 
 The same library under four Omarchy palettes:
 
-**Dark green**
+**Osaka Jade**
 
-![OmaSteam dark green](previews/example-dark-green.jpg)
+![OmaSteam on Osaka Jade](previews/example-osaka-jade.jpg)
 
-**Dark blue**
+**Retro 82**
 
-![OmaSteam dark blue](previews/example-dark-blue.jpg)
+![OmaSteam on Retro 82](previews/example-retro-82.jpg)
 
-**Dark purple**
+**Tokyo Night**
 
-![OmaSteam dark purple](previews/example-dark-purple.jpg)
+![OmaSteam on Tokyo Night](previews/example-tokyo-night.jpg)
 
 **Light**
 
