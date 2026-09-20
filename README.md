@@ -1,12 +1,42 @@
 # OmaSteam
 
+![OmaSteam library, Friends, and Settings](previews/hero.png)
+
 [Metro by Rose](https://github.com/RoseTheFlower/MetroSteam) for Steam, plus an [Omarchy](https://omarchy.org/) `theme-set` hook that writes `custom.css` from the active `colors.toml`.
 
 You do **not** install Metro by Rose separately. This repo is the skin and the hook.
 
-## Install
+## Dependencies
 
-Needs Steam with [Millennium](https://steambrew.app/) already running once (so `~/.steam/steam/millennium/themes/` exists).
+OmaSteam does not install these for you.
+
+### Steam
+
+A **native** Steam client. Millennium [does not support](https://docs.steambrew.app/users/getting-started/installation) Steam from Flatpak or Snap.
+
+- Arch / Omarchy: `sudo pacman -S steam`
+- Other distros: use your package manager, not the Flatpak
+- Windows: install Steam from [store.steampowered.com](https://store.steampowered.com/about/)
+
+Launch Steam once and finish login before installing Millennium.
+
+### Millennium
+
+[Millennium](https://steambrew.app/) is the Steam theme loader. Without it, OmaSteam cannot inject.
+
+- Arch / Omarchy: `yay -S millennium-bin`
+- Other Linux: `curl -fsSL "https://steambrew.app/install.sh" | bash`
+- Windows: the installer from the [Millennium installation guide](https://docs.steambrew.app/users/getting-started/installation)
+
+Then start Steam. Millennium should appear under **Steam → Millennium**. That also creates `~/.steam/steam/millennium/themes/` (Linux) so `install.sh` has somewhere to copy the skin.
+
+### Omarchy
+
+Needed for the palette hook (`omarchy theme set` → `colors.toml`). The Metro skin still works on a machine without Omarchy; you just will not get automatic color sync.
+
+- Install Omarchy from [omarchy.org](https://omarchy.org/)
+
+## Install
 
 ```bash
 git clone https://github.com/tempest-chaoscreator/OmaSteam.git ~/src/OmaSteam
@@ -20,6 +50,26 @@ If Steam is open, that last step is a GUI-only reload (`SteamClient.Browser.Rest
 ## After that
 
 `omarchy theme set` updates Steam colors. Leave OmaSteam's **Variation** on Standard so the hook owns the palette. Extra Metro options (decals, friends, web pages) still work in Millennium → Themes → OmaSteam.
+
+## Examples
+
+The same library under four Omarchy palettes:
+
+**Dark green**
+
+![OmaSteam dark green](previews/example-dark-green.jpg)
+
+**Dark blue**
+
+![OmaSteam dark blue](previews/example-dark-blue.jpg)
+
+**Dark purple**
+
+![OmaSteam dark purple](previews/example-dark-purple.jpg)
+
+**Light**
+
+![OmaSteam light](previews/example-light.jpg)
 
 ## Uninstall
 
