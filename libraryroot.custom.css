@@ -40,6 +40,8 @@ Known issues / things to do:
     --frameBorder: 15,15,15;
     --bgGameList: 38,38,38;
     --white05onbgGameList: 49,49,49;
+    /* Library cards. The hook replaces this with Omarchy lighter_background. */
+    --cardBG: 20,20,20;
     /* Just a workaround to deal with two overlapping hover overlays for library highlights */
     --white03: 255,255,255,0.03;
     --white05: 255,255,255,0.05;
@@ -356,6 +358,11 @@ div.MediumWindow ._1BxZDLT8KveuJzn-1q4NTP .RfMM3QjbVZCURuo5YTHWD {
     background-color: transparent;
 }
 
+/* [class*="writereview_RatingContainer_"] — "You've played" recommend bar */
+._2SAb6geDpe6toA1GaP0GjH {
+    background-color: rgb(var(--cardBG)) !important;
+}
+
 /* [class*="downloads_SectionTitle_"] */
 .qq2xItSXjpCsNrcxyPJtO {
     text-transform: uppercase !important;
@@ -465,7 +472,7 @@ img, [class*="appportrait_HoversEnabled_"]
 /* [class*="appdetailssection_AppDetailsSectionContainer_"][class*="appdetailssection_RightColumnSection_"], [class*="appactivityday_PartnerEvent_"], [class*="appactivityday_Event_"] [class*="appactivityday_EventBody_"], [class*="appdetailscommunityfeed_Guide_"]
 [class*="appdetailscommunityfeed_TopSectionInner_"], [class*="appdetailscommunityfeed_AuthorSection_"], [class*="appactivityday_PartnerEventLargeImage_Container_"] */
 ._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t, ._1AYE16384J_ecLpN0sEYc5, .UVeN0kaD3zv1feMj_mMw5 .NEMXhMlqXOCJwfgWlHXhT, ._-85o5-M_cGo-fefOuWwER ._1dJuvQ4rvlB0q8vmLJH3l2, ._1ul9ZRBfhF0vyj-hrit6nU, .LibriMVXcLl1HB60ZUp78 {
-    background: rgb(var(--black45)) !important;
+    background: rgb(var(--cardBG)) !important;
 }
 
 /* [class*="appdetailscommunityfeed_HeaderStyles_"] */
@@ -2586,7 +2593,7 @@ button.TEWmsM70ZLEOxLAjDMpcv.TEWmsM70ZLEOxLAjDMpcv ._3Wb9yDmYPUJksCr7HmaT9H {
 
 /* [class*="appdetailsspotlight_ReviewContainer_"] */
 ._3LE-6w1ItIAB4CKJFCa3Od {
-    background-color: rgb(var(--black45));
+    background-color: rgb(var(--cardBG));
 }
 
 /* [class*="writereview_ReviewThumbButton_"] */
@@ -5198,7 +5205,7 @@ button.i7jBC4aexUlu_modj8Jwm.i7jBC4aexUlu_modj8Jwm {
 
 /* [class*="posttextentry_PostTextEntry_"] [class*="posttextentry_PostTextEntryArea_"] */
 ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X {
-    border: 1px solid rgb(var(--black45));
+    border: 1px solid rgb(var(--frameBorder));
 }
 
 /* [class*="comment_thread_ActivityCommentThread_"],

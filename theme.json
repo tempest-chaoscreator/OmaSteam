@@ -2,8 +2,8 @@
     "name": "OmaSteam",
     "author": "Tempest (based on Rose)",
     "target": "Desktop",
-    "version": "v1.12",
-    "description": "Metro by Rose, with Omarchy colors.toml synced through a theme-set hook",
+    "version": "1.1",
+    "description": "OmaSteam 1.1. Metro by Rose, with Omarchy colors.toml synced through a theme-set hook",
     "manifest_version": 9,
     "tabs": {
         "library": ["Steam|SteamLibraryWindow", "desktopoverlay", "desktopcontextmenu"],
