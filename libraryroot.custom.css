@@ -4966,7 +4966,7 @@ div.LowPerfMode [class*="appdetailsplaysection_Glassy_"][class*="appdetailsplays
 
 /* [class*="appdetailsplaysection_Row_"] */
 ._9EHg918wH6CQCQlD5PWOO {
-    background: rgb(var(--black45));
+    background: rgb(var(--cardBG)) !important;
     padding: 8px;
 }
 
