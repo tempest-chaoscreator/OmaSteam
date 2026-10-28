@@ -39,10 +39,15 @@ DARKER_BG="$(get darker_background)"
 COLOR0="$(get color0)"
 COLOR8="$(get color8)"
 
-CLIENT_BG="$(to_rgb "${BACKGROUND:-#101315}")"
+# Surfaces come from Omarchy's semantic colors. color0 and color8 are ANSI
+# palette entries, not UI chrome. Official themes omit them, and Omarchy's
+# own templates then set terminal black to background. A theme that sets
+# color0 to some other hex is keeping ANSI black readable in a terminal.
+# Use that only when the theme has no background.
+CLIENT_BG="$(to_rgb "${BACKGROUND:-${COLOR0:-#101315}}")"
 FOCUS="$(to_rgb "${ACCENT:-#0072c6}")"
 FRAME_BORDER="$(to_rgb "${LIGHTER_BG:-${COLOR8:-#404040}}")"
-HEADER_DARK="$(to_rgb "${COLOR0:-$BACKGROUND}")"
+HEADER_DARK="$(to_rgb "${BACKGROUND:-${COLOR0:-#101315}}")"
 # Library cards. lighter_background is the theme's raised surface.
 # A black wash stays neutral and reads as an unsynced box.
 CARD_BG="$(to_rgb "${LIGHTER_BG:-}")"
